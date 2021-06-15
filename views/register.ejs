@@ -1,0 +1,45 @@
+<%- include ('partials/head.ejs') %>
+
+
+  <body class="text-center">
+    <form class="form-signin" action="/register" method="POST">
+      <img
+        class="mb-4"
+        src="https://www.pinclipart.com/picdir/big/164-1640714_user-symbol-interface-contact-phone-set-add-sign.png"
+        alt=""
+        width="72"
+        height="72"
+      />
+      <h1 class="h3 mb-3 font-weight-normal">Please Register</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input
+        type="email"
+        id="inputEmail"
+        name="email"
+        class="form-control"
+        placeholder="Email address"
+        required
+        autofocus
+      />
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="inputPassword"
+        class="form-control"
+        placeholder="Password"
+        required
+      />
+     
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" /> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        Register
+      </button>
+      <a href="/login" class="btn btn-lg" style="font-size: 16px;">Login to your account</a>
+    </form>
+  </body>
+</html>
