@@ -2,7 +2,7 @@
 
 # Login form & Sign Up form full Code
 
-[This] form.  
+[This] https://github.com/arunkrishnau/Project_Doctune.git have [https://github.com/arunkrishnau/Project_Doctune/blob/main/views/login.ejs] is the login and [https://github.com/arunkrishnau/Project_Doctune/blob/main/views/register.ejs] is the signup forms.  
 Built with **HTML5** ,**CSS3**, **BOOTSRTAP**, **NODE** & **MONGO DB** 
 
 ### Tasks
